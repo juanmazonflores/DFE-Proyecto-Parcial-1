@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Mazon Proyecto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <script src="./js/main.js" defer></script>
+</head>
+
+<body>
+
+    <header id=¨header¨ class="fx-row fx-content-space-between fx-align-items-center">
+        <div class="menu container">
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="./img/iconos/menu.png" class="menu-icono">
+            </label>
+            <nav class="navbar">
+                <ul class="fx-row fx-align-items-center fx-content-space-between">
+                    <li><a href="#acerca">Acerca de mi</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#proyectos">Proyectos Destacados</a></li>
+                </ul>
+
+            </nav>
+        </div>
+
+        <a id="logo" onclick="mostrarMensajeInicial()">
+            <img src="./img/variedad/logo.png" title="Juan Mazon">
+        </a>
+
+
+        <a id="contacto" href="#footer">
+            <i class=" fx-content-space-between fa-solid fa-phone" title="Contacto"></i>
+        </a>
+    </header>
+
+    <main>
+
+        <section id="home" class="scene">
+            <div class="home-banner fx-row fx-column-responsive fx-align-items-center fx">
+                <div class="home-descripcion">
+                    <h1>Juan Mazon</h1>
+                    <h3>Bienvenido a mi sitio</h3>
+                    <p>Hola, soy Juan Mazon, estudiante de 9no semestre de Ingenieria en Sistemas de Informacion,
+                        apasionado por la programacion, con especial interes por el desarrollo web, mis hobbies
+                        son los videojuegos y escuchar musica.
+                    </p>
+                </div>
+                <img src="./img/variedad/mifoto.jpg" class="pfp">
+
+                <img src="./img/fondos/forest.png" class="forest">
+        </section>
+
+        <section id="acerca">
+            <h1>Acerca de mi</h1>
+
+            <div class="acerca-container fx-row fx-column-responsive fx-content-space-between fx-align-items-center">
+
+                <div class="acerca-info fx-column">
+                    <div class="acerca-contenido fx-row">
+                        <div class="acerca-icono">
+                            <img src="./img/iconos/info.png" alt="Info">
+                        </div>
+                        <div class="acerca-texto">
+                            <h3>Información</h3>
+                            <div class="acerca-item">
+                                <h4>// Nombre:</h4>
+                                <p>* Juan Manuel Mazon Flores</p>
+                            </div>
+                            <div class="acerca-item">
+                                <h4>// Información academica:</h4>
+                                <p>* Estudiante de 9o semestre Ingenieria en Sistemas de Información - Universidad de
+                                    Sonora</p>
+                            </div>
+                            <div class="acerca-item">
+                                <h4>// Intereses:</h4>
+                                <p>* Backend y Frontend</p>
+                            </div>
+                            <div class="acerca-item">
+                                <h4>// Pasatiempos:</h4>
+                                <p>* Videojuegos y Musica</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="acerca-video fx-column fx-align-items-center fx-content-center">
+                    <h3>Biografía</h3>
+                    <iframe src="https://drive.google.com/file/d/1InnYM_M-dTvlrNRYMlNVH23jdeEo0KsE/preview" width="640"
+                        height="480" allow="autoplay"></iframe>
+                    <p>Video biografico</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h1>Habilidades</h1>
+            <div class="habilidad-container-simbologia fx-row fx-content-center">
+                <div class="habilidad-simbologia fx-row fx-content-center">
+                    <h3>Areas de Experiencia Simbologia:</h3>
+                </div>
+                <div class="habilidad-simbologia fx-row fx-content-center">
+                    <img src="./img/iconos/coding.png" alt="">
+                    <p>Desarrollo de Sistemas de Escritorio</p>
+                </div>
+                <div class="habilidad-simbologia fx-row fx-content-center">
+                    <img src="./img/iconos/globe.png" alt="">
+                    <p>Desarrollo Web</p>
+                </div>
+                <div class="habilidad-simbologia fx-row fx-content-center">
+                    <img src="./img/iconos/smartphone.png" alt="">
+                    <p>Desarrollo Movil</p>
+                </div>
+            </div>
+            <div class="habilidad-container fx-row fx-content-center">
+                <div class="habilidad">
+                    <h3>Lenguajes de Programacion</h3>
+                    <div class="habilidad-lista fx-column fx-content-center">
+                        <div class="habilidad-lista fx-row fx-content-center">
+                            <p>Java</p>
+                            <img src="./img/iconos/movil32.png" alt="">
+                            <img src="./img/iconos/escritorio32.png" alt="">
+
+                        </div>
+                        <div class="habilidad-lista fx-row fx-content-center">
+                            <p>C#</p>
+                            <img src="./img/iconos/escritorio32.png" alt="">
+
+                        </div>
+                        <div class="habilidad-lista fx-row fx-content-center">
+                            <p>Javascript</p>
+                            <img src="./img/iconos/web32.png" alt="">
+
+                        </div>
+                        <div class="habilidad-lista fx-row fx-content-center">
+                            <p>Python</p>
+                            <img src="./img/iconos/web32.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <h3>Bases de Datos</h3>
+                    <div class="habilidad-lista fx-column fx-content-center">
+                        <div class="habilidad-lista fx-row fx-content-center">
+                            <p>MySQL</p>
+                            <img src="./img/iconos/web32.png" alt="">
+                        </div>
+                        <div class="habilidad-lista fx-row fx-content-center">
+                            <p>SQL</p>
+                            <img src="./img/iconos/escritorio32.png" alt="">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <h3>Entornos de Desarrollo</h3>
+                    <div class="habilidad-lista fx-column fx-content-center">
+                        <div class="habilidad-lista fx-row fx-content-center">
+                            <p>NetBeans</p>
+                            <img src="./img/iconos/escritorio32.png" alt="">
+
+                        </div>
+                        <div class="habilidad-lista fx-row fx-content-center">
+                            <p>Visual Studio</p>
+                            <img src="./img/iconos/escritorio32.png" alt="">
+
+                        </div>
+                        <div class="habilidad-lista fx-row fx-content-center">
+                            <p>Visual Studio Code</p>
+                            <img src="./img/iconos/web32.png" alt="">
+
+                        </div>
+                        <div class="habilidad-lista fx-row fx-content-center">
+                            <p>Android Studio</p>
+                            <img src="./img/iconos/movil32.png" alt="">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <h3>Control de Versiones</h3>
+                    <div class="habilidad-lista fx-column fx-content-center">
+                        <div class="habilidad-lista fx-row fx-content-center">
+                            <p>Git</p>
+                            <img src="./img/iconos/web32.png" alt="">
+                            <img src="./img/iconos/escritorio32.png" alt="">
+                        </div>
+                        <div class="habilidad-lista fx-row fx-content-center">
+                            <p>Sourcetree</p>
+                            <img src="./img/iconos/web32.png" alt="">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <h3>Sistemas Operativos</h3>
+                    <div class="habilidad-lista fx-column fx-content-center">
+                        <div class="habilidad-lista fx-row fx-content-center">
+                            <p>Windows</p>
+                            <img src="./img/iconos/movil32.png" alt="">
+                            <img src="./img/iconos/web32.png" alt="">
+                            <img src="./img/iconos/escritorio32.png" alt="">
+
+                        </div>
+                        <div class="habilidad-lista fx-row fx-content-center">
+                            <p>Linux</p>
+                            <img src="./img/iconos/escritorio32.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="habilidad">
+                    <h3>Idiomas</h3>
+                    <div class="habilidad-lista fx-column fx-content-center">
+                        <div class="habilidad-lista fx-row fx-content-center">
+                            <p>Español</p>
+                            <div class="star-rating">
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                            </div>
+                        </div>
+                        <div class="habilidad-lista fx-row fx-content-center">
+                            <p>Ingles</p>
+                            <div class="star-rating">
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9734;</span>
+                                <span class="star">&#9734;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="proyectos">
+            <h1>Proyectos Destacados</h1>
+            <div class="card-container fx-row fx-column-responsive fx-content-space-between">
+
+                <div class="card fx-column">
+                    <div class="card-imagen">
+                        <img src="./img/proyectos/play1.png" alt="Proyecto 1">
+                    </div>
+                    
+                    <h3>Play&Star</h3>
+                    <p>Descripción: Sistema web para mantenerte informado sobre las ultimas noticias del cine, 
+                        incluye peliculas destacadas, director destacado, reconocimientos proximos y mapa de ubicacion
+                    </p>
+                    <button onclick="location.href='#openModal1'" class="button-action">Ver Detalle</button>
+                    <div id="openModal1" class="modal">
+                        <div>
+                            <a href="#close" title="Close" class="close">X</a>
+                            <div class="fx-column">
+                                <h2>Play&Star</h2>
+                                <div class="slider-container2">
+                                    <div class="slider-item">
+                                        <img src="./img/proyectos/play2.png" alt="Imagen 1">
+                                        <p>Seccion de Peliculas Destacadas con un Swiper</p>
+                                    </div>
+                                    <div class="slider-item">
+                                        <img src="./img/proyectos/play3.png" alt="Imagen 1">
+                                        <p>Seccion de Director Destacado</p>
+                                    </div>
+                                   <div class="slider-item">
+                                        <img src="./img/proyectos/play4.png"" alt="Imagen 1">
+                                        <p>El proyecto incluye una seccion de Contacto </p>
+                                   </div>
+                                </div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card fx-column">
+                    <div class="card-imagen">
+                        <img src="./img/proyectos/jungle1.png" alt="Proyecto 2">
+                    </div>
+                    
+                    <h3>Jungle-Jump</h3>
+                    <p>Videojuego cuyo objetivo principal es esquivar objetos de manera horizontal
+                        generados aleatoriamente, permite pausar, detener y reiniciar.</p>
+                    <button onclick="location.href='#openModal2'" class="button-action">Ver Detalle</button>
+                    <div id="openModal2" class="modal">
+                        <div>
+                            <a href="#close" title="Close" class="close">X</a>
+                            <div class="fx-column fx-align-items-center">
+                                <h2>Jungle-Jump</h2>
+
+                                <div class="slider-container2">
+                                    <div class="slider-item">
+                                        <img src="./img/proyectos/jungle2.png" alt="Imagen 1">
+                                        <p>El personaje puede saltar para esquivar enemigos</p>
+                                    </div>
+                                    <div class="slider-item">
+                                        <img src="./img/proyectos/jungle3.png" alt="Imagen 1">
+                                        <p>Se gana al llegar a la meta</p>
+                                    </div>
+                                    <div class="slider-item">
+                                        <img src="./img/proyectos/jungle4.png" alt="Imagen 1">
+                                        <p>Si un enemigo te toca, pierdes</p>    
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="card fx-column">
+                    <div class="card-imagen">
+                        <img src="./img/proyectos/ferre1.png" alt="Proyecto 3">
+                    </div>
+                    <h3>Ferrefast</h3>
+                    <p>Aplicación que permite el control de entregas a domicilio en productos de Ferreteria,
+                        tanto para vendedores como para clientes</p>
+                    <button onclick="location.href='#openModal3'" class="button-action">Ver Detalle</button>
+                    <div id="openModal3" class="modal">
+                        <div>
+                            <a href="#close" title="Close" class="close">X</a>
+                            <div class="fx-column fx-align-items-center">
+                                <h2>Ferrefast</h2>
+                                <div class="slider-container">
+
+                                    <div class="slider-item">
+                                        
+                                        <img src="./img/proyectos/ferre2.png" alt="Imagen 1">
+                                        <p>Seccion para escoger tus productos</p>
+                                    </div>
+                                    <div class="slider-item">
+                                        <img src="./img/proyectos/ferre3.png" alt="Imagen 1">
+                                        <p>Detalles de Producto</p>
+                                    </div>
+                                    <div class="slider-item">
+                                        <img src="./img/proyectos/ferre4.png" alt="Imagen 1">
+                                        <p>Tiene un menu hamburguesa para que el usuario</p>
+                                    </div>
+                                </div>          
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+    </main>
+    <footer id="footer" class="fx-column fx-content-center fx-align-items-center">
+
+        <div class="contacto-container">
+    
+          <h2>Contacto</h2>
+    
+          <form id="contacto-form" class="fx-column">
+    
+            <input type="text" id="nombre" placeholder="Nombre" required>
+    
+            <input type="email" id="email" placeholder="Email" required>
+    
+            <textarea id="mensaje" placeholder="Mensaje" required></textarea>
+    
+            <button type="submit" class="button-action">Enviar</button>
+    
+          </form>
+    
+        </div>
+    
+        <div class="redes-sociales-container fx-row">
+    
+          <a href="https://github.com/juanmazonflores" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.facebook.com/juanmanuel.masonflores" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/juanitomaflo" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://www.linkedin.com/in/juan-mazon-653472277/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+    
+        </div>
+    
+        <p>Juan Manuel Mazon Flores &copy; 2023</p>
+    
+      </footer>
+
+    <button id="btn-ir-arriba">
+        <svg viewBox="0 0 24 24">
+            <path d="m4 16 8-8 8 8"></path>
+        </svg>
+    </button>
+
+</body>
+
+</html>
